@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset><legend>Personal Details</legend>
+        <label for="first_name">First Name: </label> <input type="text" required>
+        <br></br>
+        <label for="middle_name">Middle Name: </label> <input type="text">
+        <br></br>
+        <label for="Last_name">Last Name: </label> <input type="text" required>
+        <br></br>
+        <labe for="course">Course: </labe>
+        <select>  
+            <option value="course">Course</option>  
+            <option value="bca">BCA</option>  
+            <option value="bba">BBA</option>  
+            <option value="b.tech">B.Tech</option>  
+            <option value="mba">MBA</option>  
+            <option value="mca">MCA</option>  
+            <option value="m.tech">M.Tech</option>  
+            </select>
+        <br></br>
+        <labe for="gender">Gender</labe><br>
+        <input type="radio" name="one" value = "male"><labe for="gender">Male</labe><br>
+        <input type="radio" name="one" value = "female"><labe for="gender">Female</labe><br>
+        <input type="radio" name="one" value = "Other"><labe for="gender">Other</labe><br>
+        <br>
+        <labe for="dob">DOB: </labe><input type="datetime-local">
+        <br></br>
+        <labe for="phone">Phone: </labe><input type="text" name="country_code" value="+91" size="1" disabled="">
+        <input type="telco" name="phone" maxlength="10" size="10">
+        <br></br>
+        <label for="address">Address:</label><br><textarea cols="60" rows="7" value="address"></textarea> 
+        <br></br>
+        <label for="email">Email: </label><input type="email">
+        <br></br>
+        <label for="Password">Password: </label><input type="password" name = "Password">
+        <br></br>
+        <label for="">Re-type password: </label><input type="Password" id="reenterpass" name="reenterpass">
+        <br></br>
+        <input type = "checkbox"><label>Agree to terms and conditions</label>
+        <br></br>
+        <label for="">Choose File: </label><input type="file">
+        <br></br>
+        <label for="">Choose Color: </label><input type="color">
+        <br></br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </fieldset>
+    </form>
+</body>
+</html>
